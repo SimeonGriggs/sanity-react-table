@@ -44,11 +44,6 @@ function Table({ data }) {
           </span>
         ),
       },
-
-      // {
-      //   Header: 'Who Can Come?',
-      //   accessor: 'allowedGuests',
-      // },
     ],
     []
   )
@@ -59,7 +54,6 @@ function Table({ data }) {
     headerGroups,
     rows,
     prepareRow,
-    selectedFlatRows,
     state: { selectedRowIds },
   } = useTable({ columns, data }, useSortBy, useRowSelect, (hooks) => {
     hooks.visibleColumns.push((columns) => [
@@ -84,16 +78,6 @@ function Table({ data }) {
       ...columns,
     ])
   })
-
-  // const setSelectedIds = useStore((state) => state.setSelectedIds)
-
-  // useEffect(() => {
-  //   setSelectedIds(
-  //     selectedFlatRows.length
-  //       ? selectedFlatRows.map((row) => row.original._id)
-  //       : []
-  //   )
-  // }, [selectedFlatRows])
 
   return (
     <>
