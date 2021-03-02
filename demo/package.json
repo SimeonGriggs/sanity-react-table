@@ -1,0 +1,56 @@
+{
+  "name": "design",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "@headlessui/react": "^0.3.1",
+    "@sanity/client": "^2.2.6",
+    "date-fns": "^2.18.0",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
+    "react-query": "^3.12.0",
+    "react-table": "^7.6.3",
+    "zustand": "^3.3.3"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react-refresh": "^1.1.0",
+    "autoprefixer": "^10.2.4",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.17.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-config-wesbos": "^1.0.1",
+    "eslint-plugin-html": "^6.1.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-react": "^7.22.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "postcss": "^8.2.6",
+    "prettier": "^2.2.1",
+    "tailwindcss": "^2.0.3",
+    "vite": "^2.0.1"
+  },
+  "eslintConfig": {
+    "extends": [
+      "wesbos"
+    ],
+    "rules": {
+      "no-console": 2,
+      "prettier/prettier": [
+        "error",
+        {
+          "trailingComma": "es5",
+          "singleQuote": true,
+          "printWidth": 80,
+          "semi": false
+        }
+      ]
+    }
+  }
+}

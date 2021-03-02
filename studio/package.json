@@ -1,0 +1,31 @@
+{
+  "name": "reacttabledemo",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "package.json",
+  "author": "Simeon Griggs <simeon@tomoro.com.au>",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "sanity start",
+    "build": "sanity build"
+  },
+  "keywords": [
+    "sanity"
+  ],
+  "dependencies": {
+    "@sanity/base": "^2.4.3",
+    "@sanity/components": "^2.2.6",
+    "@sanity/core": "^2.4.0",
+    "@sanity/default-layout": "^2.4.3",
+    "@sanity/default-login": "^2.2.6",
+    "@sanity/desk-tool": "^2.4.3",
+    "@sanity/google-maps-input": "^2.4.3",
+    "@sanity/vision": "^2.2.6",
+    "prop-types": "^15.7",
+    "react": "^17.0",
+    "react-dom": "^17.0",
+    "react-icons": "^3.11.0"
+  },
+  "devDependencies": {}
+}
