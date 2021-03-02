@@ -4,7 +4,9 @@ The bulk content editing story in Sanity is almost non-existent. From a user int
 
 Currently this is a rapidly-produced proof-of-concept. The `./demo` directory is a Vite JS project which combines [Sanity Client](https://www.npmjs.com/package/@sanity/client) with [React Query](https://react-query.tanstack.com) to fetch data and update the UI.
 
-It also uses the Movies example dataset. The only editable field is the 'Published' boolean, but you can select and push `patches` to multiple documents at once by selecting multiple rows and clicking just one of the toggles.
+📼 [Walkthrough Video](https://www.loom.com/share/d058ef2851a245098078cc883115b5ec)
+
+It also uses the Movies example dataset. The only editable field is the `published` boolean, but you _can_ select and push `patches` to multiple documents at once by selecting multiple rows and clicking just one of the toggles.
 
 ## Roadmap of this project if I actually took the time to do it properly
 
