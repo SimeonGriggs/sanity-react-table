@@ -1,10 +1,10 @@
 {
   "root": true,
   "project": {
-    "name": "react-table-demo"
+    "name": "Gallery"
   },
   "api": {
-    "projectId": "t1i6zr4x",
+    "projectId": "0p3ccz99",
     "dataset": "production"
   },
   "plugins": [
@@ -12,14 +12,11 @@
     "@sanity/components",
     "@sanity/default-layout",
     "@sanity/default-login",
-    "@sanity/desk-tool",
-    "@sanity/google-maps-input"
+    "@sanity/desk-tool"
   ],
   "env": {
     "development": {
-      "plugins": [
-        "@sanity/vision"
-      ]
+      "plugins": ["@sanity/vision"]
     }
   },
   "parts": [
